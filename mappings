@@ -1,0 +1,47 @@
+" vim: set ft=vim:
+
+""" Bash yourself to learn hjkl
+    nnoremap <up> <nop>
+    nnoremap <down> <nop>
+    nnoremap <left> <nop>
+    nnoremap <right> <nop>
+    inoremap <up> <nop>
+    inoremap <down> <nop>
+    inoremap <left> <nop>
+    inoremap <right> <nop>
+    nnoremap j gj
+    nnoremap k gk
+
+
+""" Some tweaks for better life
+    command! -bar -bang W :w<bang>
+    command! -bar -bang Q :q<bang>
+    command! -bar -bang Wc :wc<bang>
+    command! -bar -bang Qc :qc<bang>
+    command! -bar -bang Tabe :tabe<bang>
+
+
+""" Stop help from not being helpful
+    inoremap <F1> <ESC>
+    nnoremap <F1> <ESC>
+    vnoremap <F1> <ESC>
+
+
+""" Little itch scratching
+    nnoremap ; :
+
+
+""" Make jj exit insert mode
+    inoremap jj <ESC>
+
+
+""" Move between windows
+    nnoremap <C-h> <C-w>h
+    nnoremap <C-j> <C-w>j
+    nnoremap <C-k> <C-w>k
+    nnoremap <C-l> <C-w>l
+
+
+""" Move up and down rows and not lines when lines are wrapped
+    nnoremap j gj
+    nnoremap k gk

@@ -1,0 +1,9 @@
+" vim: set ft=vim:
+
+Bundle 'Buffergator'
+
+map <F4> :BuffergatorToggle<CR>
+let g:buffergator_autoexpand_on_split = 0
+let g:buffergator_display_regime = "filepath"
+let g:buffergator_viewport_split_policy = "T"
+let g:buffergator_split_size = 10

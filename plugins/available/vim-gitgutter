@@ -1,0 +1,3 @@
+" vim: set ft=vim:
+
+Bundle 'airblade/vim-gitgutter'
