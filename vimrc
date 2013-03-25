@@ -6,7 +6,7 @@
     Bundle 'gmarik/vundle'
     Bundle 'molokai'
 
-    let g:stibnite_conf_dir = '~/stibnite/'
+    let g:stibnite_conf_dir = '~/.vim/stibnite/'
 
     let g:stibnite_enabled_plugins = split( system('ls ' . g:stibnite_conf_dir . 'plugins/enabled/'), '\n')
 
