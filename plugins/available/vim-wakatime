@@ -1,0 +1,3 @@
+" vim: set ft=vim:
+
+Bundle 'wakatime/vim-wakatime'
