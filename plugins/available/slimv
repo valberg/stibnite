@@ -1,0 +1,5 @@
+" vim: set ft=vim:
+
+Bundle 'slimv.vim'
+
+let g:lisp_rainbow=1
