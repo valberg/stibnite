@@ -36,3 +36,26 @@ Installation
 3. Setup .vimrc link
 
     ln -s ~/.vim/stibnite/vimrc ~/.vimrc
+
+
+Stibnite "enable/disable plugin" helper
+---------------------------------------
+
+I'm trying to create a tool that can be used to quickly enable/disable plugins.
+Right now this is to be found in the `stibnite.py`.
+
+One can list plugins as such:
+
+    ./stibnite.py list
+
+Enable plugins as such:
+
+    ./stibnite.py enable <name-of-plugin>
+
+Or disable as such:
+
+    ./stibnite.py disable <name-of-plugin>
+
+This script is currently only tested on Python 2.7.4, and requires the
+`docopt` module. For convenience I've included the `docopt.py` module in here.
+Check out http://docopt.org/ to learn more about this awesome library!
