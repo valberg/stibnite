@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """
 Usage:
     stibnite.py (list | enable <plugin> | disable <plugin>)

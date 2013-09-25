@@ -1,0 +1,12 @@
+augroup BgHighlight
+    autocmd!
+
+    autocmd WinEnter * set syntax=ON
+    autocmd WinEnter * set cul
+    autocmd WinEnter * set colorcolumn=80
+
+    autocmd WinLeave * set nocul
+    autocmd WinLeave * set colorcolumn=0
+    autocmd WinLeave * set syntax=OFF
+
+augroup END

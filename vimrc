@@ -17,10 +17,10 @@ filetype off
         execute 'source ' . g:stibnite_conf_dir . 'plugins/enabled/' . plugin
     endfor
 
-    let g:stibnite_configs = split(system('ls ' . g:stibnite_conf_dir . 'configs/', '\n'))
+    let g:stibnite_configs = split(system('ls ' . g:stibnite_conf_dir . 'configs/enabled/', '\n'))
 
     for config in g:stibnite_configs
-        execute 'source ' . g:stibnite_conf_dir . 'configs/' . config
+        execute 'source ' . g:stibnite_conf_dir . 'configs/enabled/' . config
     endfor
 
     filetype plugin indent on

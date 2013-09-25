@@ -51,3 +51,8 @@
 
 """ Run things within vim with 'enter'
     map <C-M> :make<CR>'
+
+""" Make backspace behave
+    set backspace=indent,eol,start
+
+
