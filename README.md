@@ -1,5 +1,4 @@
-Stibnite
-========
+# Stibnite
 
 Stibnite is a way to structure a VIM configuration using multiple files. The
 idea is that instead of dividing a big .vimrc file into sections, each such
@@ -22,8 +21,7 @@ Mainly there are two types of configuration files:
       be enabled
 
 
-Installation
-------------
+## Installation
 
 1. Install Vundle:
 
@@ -38,11 +36,23 @@ Installation
     ln -s ~/.vim/stibnite/vimrc ~/.vimrc
 
 
-Stibnite "enable/disable plugin" helper
----------------------------------------
+## Enable/disable plugins
 
-I'm trying to create a tool that can be used to quickly enable/disable plugins.
-Right now this is to be found in the `stibnite.py`.
+There are two ways to enable/disable a plugin:
+
+### Using VIM
+
+Totally in development, but it is possible right now to list, enable and
+disable plugins.
+
+To show the list run :StibniteList
+
+Usage information should be shown in the top of the list.
+
+### Using the included python script
+
+For commandline use there is a python script, `stibnite.py`. the usage is as
+follows:
 
 One can list plugins as such:
 
