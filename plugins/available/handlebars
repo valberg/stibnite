@@ -1,0 +1,5 @@
+" vim: set ft=vim:
+
+NeoBundle 'Handlebars'
+
+au BufRead,BufNewFile *.handlebars,*.hbs set ft=html syntax=handlebars

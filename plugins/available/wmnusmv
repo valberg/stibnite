@@ -1,0 +1,3 @@
+NeoBundle 'wannesm/wmnusmv.vim'
+
+autocmd FileType nusmv setlocal sw=2 ts=2 sts=2

@@ -1,3 +1,3 @@
 " vim: set ft=vim:
 "
-Bundle 'myusuf3/numbers.vim'
+NeoBundle 'myusuf3/numbers.vim'

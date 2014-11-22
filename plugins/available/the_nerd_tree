@@ -1,10 +1,8 @@
-Bundle 'The-NERD-tree'
+NeoBundle 'scrooloose/nerdtree'
 
 let NERDTreeChDirMode=2
 let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
 let NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$',  '\~$']
 let NERDTreeShowBookmarks=1
-let NERDTreeQuitOnOpen=1
-let NERDTreeWinPos="right"
+let NERDTreeWinPos="left"
 let NERDTreeMinimalUI=1
-map <F3> :NERDTreeToggle<CR>

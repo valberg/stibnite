@@ -1,5 +1,5 @@
 " vim: set ft=vim:
 
-Bundle 'Shougo/neocomplcache'
+NeoBundle 'Shougo/neocomplcache'
 
 let g:neocomplcache_enable_at_startup = 1

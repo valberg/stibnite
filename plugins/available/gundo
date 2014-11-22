@@ -1,5 +1,5 @@
 " vim: set ft=vim:
 
-Bundle 'Gundo'
+NeoBundle 'Gundo'
 
 nnoremap <F5> :GundoToggle<CR>

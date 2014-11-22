@@ -1,0 +1,3 @@
+" vim: set ft=vim
+
+autocmd filetype css setlocal equalprg=csstidy\ -\ --silent=true

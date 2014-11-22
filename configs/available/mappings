@@ -9,8 +9,6 @@
     inoremap <down> <nop>
     inoremap <left> <nop>
     inoremap <right> <nop>
-    nnoremap j gj
-    nnoremap k gk
 
 
 """ Some tweaks for better life
@@ -46,13 +44,14 @@
     nnoremap j gj
     nnoremap k gk
 
+
 """ Open split window with ,w
     nnoremap <leader>w <C-w>v<C-w>l
 
+
 """ Run things within vim with 'enter'
-    map <C-M> :make<CR>'
+"    map <C-M> :make<CR>'
+
 
 """ Make backspace behave
     set backspace=indent,eol,start
-
-

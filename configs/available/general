@@ -1,21 +1,29 @@
 " vim: set ft=vim:
 set encoding=utf-8
-set nocompatible
 
 """ Colorscheme
-    colorscheme molokai
-    let g:molokai_original = 1
-    set background=dark
-    "colorscheme clouds_midnight
 
+    NeoBundle 'github-theme'
+    NeoBundle 'twilight'
+    NeoBundle 'telling/darkerdesert'
+
+    "set background=light
+    "colorscheme github
+
+    set background=light
+    colorscheme twilight
+
+    "set background=light
+    "colorscheme darkerdesert
 
 """ General config
+
     let mapleader = ","
     syntax enable
     set t_Co=256
     set number
-    set cursorcolumn            " Where on the current line are we?
-    set cursorline              " Where in the file are we?
+"    set cursorcolumn            " Where on the current line are we?
+"    set cursorline              " Where in the file are we?
     set showmatch
     set tabstop=4       " Tabs should only be 4 spaces!
     set shiftwidth=4
@@ -48,3 +56,17 @@ set nocompatible
 """ Strip whitespaces
     nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
     autocmd BufWritePre * :%s/\s\+$//e
+
+""" Splits
+    set splitbelow
+    set splitright
+
+""" Indentation for different filetypes
+    autocmd FileType html :setlocal sw=2 ts=2 sts=2
+    autocmd FileType css :setlocal sw=2 ts=2 sts=2
+    autocmd FileType scss :setlocal sw=2 ts=2 sts=2
+    autocmd FileType javascript :setlocal sw=2 ts=2 sts=2
+    autocmd FileType js :setlocal sw=2 ts=2 sts=2
+
+""" Make on <Return> in normal mode
+    map <Return> :make<CR><CR>
