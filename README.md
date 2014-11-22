@@ -23,9 +23,9 @@ Mainly there are two types of configuration files:
 
 ## Installation
 
-1. Install Vundle:
+1. Install NeoBundle:
 
-    git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+    git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 
 2. Get Stibnite:
 
