@@ -3,7 +3,5 @@
 """ LaTeX
     autocmd FileType tex setlocal fileencoding=utf-8
     autocmd FileType tex setlocal makeprg=pdflatex\ '%'
-    autocmd FileType tex setlocal spell
-    autocmd FileType tex setlocal spelllang=da
     " make sure vim-latex is loaded if the file is an empty .tex
     let g:tex_flavor='latex'

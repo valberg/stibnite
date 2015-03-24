@@ -5,7 +5,11 @@
     set guioptions-=l
     set guioptions-=L
     set guioptions-=R
-    set guifont=DejaVu\ Sans\ Mono\ 9
+    " set guifont=DejaVu\ Sans\ Mono\ 9
+    " set guifont=Anonymice\ Powerline\ 9
+    set guifont=Inconsolata\ for\ Powerline:h13
     set guioptions-=T
     set guioptions-=m
     set guioptions+=a
+
+
