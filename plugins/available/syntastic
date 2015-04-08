@@ -1,6 +1,6 @@
 " vim: set ft=vim:
 
-NeoBundle 'scrooloose/syntastic'
+Plug 'scrooloose/syntastic'
 
 let g:syntastic_enable_ballons = 0
 let g:syntastic_auto_loc_list = 1

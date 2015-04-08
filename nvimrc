@@ -2,7 +2,7 @@
 "
 
 " Stibnite settings
-let g:stibnite_conf_dir = '~/.vim/stibnite/'
+let g:stibnite_conf_dir = '~/.nvim/stibnite/'
 let g:stibnite_enabled_plugins = split( system('ls ' . g:stibnite_conf_dir . 'plugins/enabled/'), '\n' )
 let g:stibnite_configs = split(system('ls ' . g:stibnite_conf_dir . 'configs/enabled/', '\n'))
 
@@ -12,25 +12,25 @@ if !1 | finish | endif
 if has('vim_starting')
   set nocompatible               " Be iMproved
   " Required:
-  set runtimepath+=~/.vim/bundle/neobundle.vim/
+  " set runtimepath+=~/.vim/bundle/neobundle.vim/
 endif
 
 " Required:
-call neobundle#begin(expand('~/.vim/bundle/'))
+call plug#begin('~/.vim/plugged')
 
 """ Stibnite Plugins Start
-
     for plugin in g:stibnite_enabled_plugins
         execute 'source ' . g:stibnite_conf_dir . 'plugins/enabled/' . plugin
     endfor
 """" Stibnite Plugins End
-
-call neobundle#end()
-filetype plugin indent on
-NeoBundleCheck
 
 """ Stibnite Configs Start
     for config in g:stibnite_configs
         execute 'source ' . g:stibnite_conf_dir . 'configs/enabled/' . config
     endfor
 """" Stibnite Configs End
+
+call plug#end()
+filetype plugin indent on
+
+colorscheme wombat

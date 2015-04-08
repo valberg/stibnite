@@ -1,5 +1,5 @@
 " vim: set ft=vim:
 
-NeoBundle 'Tagbar'
+Plug 'Tagbar'
 
 noremap <silent> <F6> :TagbarToggle<CR>

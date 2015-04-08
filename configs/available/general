@@ -3,18 +3,15 @@ set encoding=utf-8
 
 """ Colorscheme
 
-    NeoBundle 'github-theme'
-    NeoBundle 'twilight'
-    NeoBundle 'telling/darkerdesert'
+    let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+
+    Plug 'github-theme'
+    Plug 'twilight'
+    Plug 'telling/darkerdesert'
+    Plug 'wombat'
+    Plug 'junegunn/seoul256.vim'
 
     "set background=light
-    "colorscheme github
-
-    set background=light
-    colorscheme twilight
-
-    "set background=light
-    "colorscheme darkerdesert
 
 """ General config
 

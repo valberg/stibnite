@@ -1,5 +1,5 @@
 " vim: set ft=vim:
 
-NeoBundle 'slimv.vim'
+Plug 'slimv.vim'
 
 let g:lisp_rainbow=1

@@ -1,1 +1,1 @@
-NeoBundle 'vim-scripts/sessionman.vim'
+Plug 'vim-scripts/sessionman.vim'

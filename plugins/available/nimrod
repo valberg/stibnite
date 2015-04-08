@@ -1,5 +1,5 @@
 " vim: set ft=vim:
 
-NeoBundle 'nimrod.vim'
+Plug 'nimrod.vim'
 
 au BufNewFile,BufRead *.nim set filetype=nimrod

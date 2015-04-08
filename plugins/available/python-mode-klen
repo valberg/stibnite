@@ -1,6 +1,6 @@
 " vim: set ft=vim:
 
-NeoBundle 'klen/python-mode'
+Plug 'klen/python-mode'
 
 let g:pymode_folding = 0
 let g:pymode_lint_on_write = 1
