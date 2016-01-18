@@ -55,3 +55,6 @@
 
 """ Make backspace behave
     set backspace=indent,eol,start
+
+
+nnoremap <C-p> :FZF<CR>

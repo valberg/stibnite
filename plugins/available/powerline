@@ -1,5 +1,5 @@
 " vim: set ft=vim:
 
-NeoBundle 'Lokaltog/powerline.git'
+Plug 'Lokaltog/powerline.git'
 
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim

@@ -2,19 +2,7 @@
 set encoding=utf-8
 
 """ Colorscheme
-
-    NeoBundle 'github-theme'
-    NeoBundle 'twilight'
-    NeoBundle 'telling/darkerdesert'
-
-    "set background=light
-    "colorscheme github
-
-    set background=light
-    colorscheme twilight
-
-    "set background=light
-    "colorscheme darkerdesert
+    colorscheme smpl
 
 """ General config
 

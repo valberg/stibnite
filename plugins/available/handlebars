@@ -1,5 +1,5 @@
 " vim: set ft=vim:
 
-NeoBundle 'Handlebars'
+Plug 'Handlebars'
 
 au BufRead,BufNewFile *.handlebars,*.hbs set ft=html syntax=handlebars

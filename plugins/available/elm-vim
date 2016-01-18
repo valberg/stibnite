@@ -1,0 +1,3 @@
+" vim: set ft=vim:
+
+Plug 'elmcast/elm-vim'

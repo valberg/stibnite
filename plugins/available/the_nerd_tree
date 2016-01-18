@@ -1,8 +1,10 @@
-NeoBundle 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdtree'
 
-let NERDTreeChDirMode=2
-let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
-let NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$',  '\~$']
-let NERDTreeShowBookmarks=1
-let NERDTreeWinPos="left"
-let NERDTreeMinimalUI=1
+let g:NERDTreeChDirMode=2
+let g:NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
+let g:NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$',  '\~$']
+let g:NERDTreeShowBookmarks=1
+let g:NERDTreeWinPos="left"
+let g:NERDTreeMinimalUI=1
+let g:NERDTreeQuitOnOpen=1
+let g:NERDTreeHijackNetrw=0

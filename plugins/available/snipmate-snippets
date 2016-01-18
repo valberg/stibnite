@@ -1,3 +1,3 @@
 " vim: set ft=vim:
 
-NeoBundle 'snipmate-snippets'
+Plug 'snipmate-snippets'

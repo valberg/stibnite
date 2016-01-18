@@ -1,6 +1,6 @@
 " vim: set ft=vim:
 
-NeoBundle 'Buffergator'
+Plug 'Buffergator'
 
 map <F4> :BuffergatorToggle<CR>
 let g:buffergator_autoexpand_on_split = 0
