@@ -1,3 +1,4 @@
+" vim: set ft=vim:
 Plug 'scrooloose/nerdtree'
 
 let g:NERDTreeChDirMode=2
