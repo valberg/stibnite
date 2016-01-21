@@ -23,14 +23,15 @@ Mainly there are two types of configuration files:
 
 ## Installation
 
-1. Install NeoBundle:
-
-    git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
-
-2. Get Stibnite:
+1. Get Stibnite:
 
     git clone http://github.com/valberg/stibnite.git ~/.vim/stibnite
 
-3. Setup .vimrc link
+2. Setup .vimrc link
 
     ln -s ~/.vim/stibnite/vimrc ~/.vimrc
+
+3. (Optional): Symlink plugins from ~/.vim/stibnite/plugins/available to
+   ~/.vim/stibnite/plugins/enabled/ to enable those plugins.
+
+4. Fire up vim and plugins should be automatically installed.

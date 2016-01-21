@@ -10,18 +10,34 @@ if !1 | finish | endif
 
 set nocompatible
 
-" Required:
-call plug#begin('~/.vim/plugged')
+function! LoadStibNitePlugins()
+  call plug#begin('~/.vim/plugged')
 
-""" Stibnite Plugins
-for plugin in g:stibnite_enabled_plugins
+  """ Stibnite Plugins
+  for plugin in g:stibnite_enabled_plugins
     execute 'source ' . g:stibnite_conf_dir . 'plugins/enabled/' . plugin
-endfor
-call plug#end()
+  endfor
+
+  call plug#end()
+endfunction
+
+function! LoadStibNiteConfigs()
+    """ Stibnite Configs
+    for config in g:stibnite_configs
+      execute 'source ' . g:stibnite_conf_dir . 'configs/enabled/' . config
+    endfor
+endfunction
+
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+      \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall | source $MYVIMRC | close
+  call LoadStibNitePlugins()
+else
+  call LoadStibNitePlugins()
+  call LoadStibNiteConfigs()
+endif
+
 
 filetype plugin indent on
 
-""" Stibnite Configs
-for config in g:stibnite_configs
-    execute 'source ' . g:stibnite_conf_dir . 'configs/enabled/' . config
-endfor
