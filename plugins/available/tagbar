@@ -1,5 +1,5 @@
 " vim: set ft=vim:
 
-Plug 'Tagbar'
+Plug 'majutsushi/tagbar'
 
 noremap <silent> <F6> :TagbarToggle<CR>
