@@ -1,0 +1,5 @@
+" vim: set ft=vim:
+
+Plug 'chriskempson/base16-vim'
+
+let base16colorspace=256

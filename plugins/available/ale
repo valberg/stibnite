@@ -1,0 +1,9 @@
+" vim: set ft=vim:
+
+Plug 'w0rp/ale'
+
+let &runtimepath.=',~/.vim/bundle/ale'
+
+let g:ale_open_list = 0
+
+nnoremap <F4> :ALEToggle<CR>

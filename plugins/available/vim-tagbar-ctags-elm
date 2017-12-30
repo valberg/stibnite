@@ -1,0 +1,4 @@
+" vim: set ft=vim:
+
+Plug 'bitterjug/vim-tagbar-ctags-elm'
+
