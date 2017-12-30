@@ -1,3 +1,5 @@
 " vim: set ft=vim:
 
 Plug 'elmcast/elm-vim'
+
+let g:elm_format_autosave = 1

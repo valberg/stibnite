@@ -2,13 +2,17 @@
 set encoding=utf-8
 
 """ Colorscheme
-    colorscheme smpl
+    colorscheme base16-default-dark
+    set background=dark
+    if !has('gui_running')
+        set t_Co=256
+    endif
 
 """ General config
 
     let mapleader = ","
+    let maplocalleader = ","
     syntax enable
-    set t_Co=256
     set number
 "    set cursorcolumn            " Where on the current line are we?
 "    set cursorline              " Where in the file are we?
@@ -55,6 +59,3 @@ set encoding=utf-8
     autocmd FileType scss :setlocal sw=2 ts=2 sts=2
     autocmd FileType javascript :setlocal sw=2 ts=2 sts=2
     autocmd FileType js :setlocal sw=2 ts=2 sts=2
-
-""" Make on <Return> in normal mode
-    map <Return> :make<CR><CR>

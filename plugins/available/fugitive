@@ -1,3 +1,5 @@
 " vim: set ft=vim:
 
 Plug 'tpope/vim-fugitive'
+
+set diffopt=filler,vertical
